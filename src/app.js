@@ -10,6 +10,7 @@ app.use( express.json() );
 
 // Routes
 app.use('/user', require('./routes/user.routes'));
+app.use('/post', require('./routes/post.routes'));
 
 // Listen Server
 app.listen(3000, () => {
